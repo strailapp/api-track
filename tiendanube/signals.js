@@ -6,7 +6,7 @@
       return {
         name: 'strail',
         config: {
-          endpoint: 'https://us1.api.strail.me/v2/signals/analytics/' + pluginConfig.id
+          endpoint: 'https://app.strail.me/analytics/signals/' + pluginConfig.id
         },
         initialize: ({ config }) => {
           //console.log(config);
