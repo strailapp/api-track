@@ -53,9 +53,9 @@
       //console.log(data);
     }
     
-     const instance = new URL(document.currentScript.src).searchParams.get('instance');
+    const id = new URL(document.currentScript.src).searchParams.get('id');
       
-    var analytics = _analytics.init({ app: 'tiendanube', plugins: [strail({ id: instance })] });
+    var analytics = _analytics.init({ app: 'tiendanube', plugins: [strail({ id: id })] });
     window.analytics = analytics;
     analytics.page();
     
