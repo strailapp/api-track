@@ -75,7 +75,7 @@
         products.push({
           product_id: item.id,
           name: item.name,
-          price: item.unit_price,
+          price: item.unit_price * 0.01,
           quantity: item.quantity
         });
       }
